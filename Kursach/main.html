@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Погнали</title>
+    <link href ="canvasStyle.css" rel ="stylesheet"/>
+</head>
+<body style="background-color: black">
+<script src = "Managers/mapManager.js"></script>
+<script src ="Managers/gameManager.js"></script>
+<script src = "Managers/spriteManager.js"></script>
+<script src = "Managers/eventsManager.js"></script>
+<script src = "Managers/physicManager.js"></script>
+<script src = "Managers/entities.js"></script>
+<script src = "Managers/soundManager.js"></script>
+<script src = "startingScreen.js"></script>
+<script src = "Managers/levelManager.js"></script>
+    <div id = "selector">
+        Enter your nickname
+            <input id ="nickname" type="text">
+        <br>
+        Choose difficulty:
+            <select name = "difficultyChoice" id = "difficultyChoice">
+                <option value ="easy">easy</option>
+                <option value ="medium">medium</option>
+                <option value ="hard">hard</option>
+                <option value ="impossible">impossible</option>
+            </select>
+        <button onclick="confirmInput()"> apply </button>
+    </div>
+<div id ="deadScreen">
+    YOU ARE DEAD
+    <button onclick ="restart()">Try again</button>
+</div>
+<div id ="success">
+</div>
+
+<canvas id = "canvasid" width = "800" height = "600"></canvas>
+<script>
+        let canvas = document.getElementById("canvasid");
+        let ctx = canvas.getContext("2d");
+        canvas.backgroundColor = "black";
+        let lm = new levelManager();
+        let mm = new mapManager();
+        let gm = new gameManager();
+        let sm = new spriteManager();
+        let em = new eventsManager();
+        let pm = new physicManager();
+        let sM = new soundManager();
+        gm.factory['Player'] = Player;
+        gm.factory['Orc'] = Orc;
+        gm.factory['Potion'] = Potion;
+        gm.factory['PlayerArrow'] = PlayerArrow;
+        gm.factory['Spider'] = Spider;
+        sm.loadAtlas("mapidyMap/atlas.json","mapidyMap/atlas.png");
+        sM.loadArray([
+            'sounds/arrow.mp3',
+            'sounds/enemyDeath.mp3',
+            'sounds/background.mp3',
+            'sounds/finish.mp3',
+            'sounds/enemyTakingDamage.m4a',
+            'sounds/playerHasDied.m4a',
+            'sounds/playerTakingDamage.m4a',
+            'sounds/takingChest.m4a',
+            'sounds/takingPotion.m4a',
+            'sounds/levelComplete.m4a'
+        ]);
+        sM.init();
+        em.setup(canvas);
+        gm.load(1);
+</script>
+</body>
+</html>

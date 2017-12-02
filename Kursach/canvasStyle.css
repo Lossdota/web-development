@@ -1,0 +1,44 @@
+#canvasid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+
+#selector{
+    font-family: "Arial Black";
+    font-size: 16px;
+    color: white;
+    margin: auto;
+    background-image: url("mapidyMap/background.png");
+    width: 300px;
+    min-height: 200px;
+}
+
+#deadScreen{
+    border: 1px solid white;
+    font-family: "Arial Black";
+    font-size: 26px;
+    color: white;
+    margin: auto;
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    display: none;
+    text-align: center;
+}
+#success{
+    border: 1px solid white;
+    font-family: "Arial Black";
+    font-size: 26px;
+    color: white;
+    margin: auto;
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    display: none;
+    text-align: center;
+}

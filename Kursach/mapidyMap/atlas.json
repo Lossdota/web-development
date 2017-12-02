@@ -1,0 +1,138 @@
+{"frames": {
+
+"arrow.png":
+{
+	"frame": {"x":0,"y":52,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"arrowCount.png":
+{
+	"frame": {"x":100,"y":20,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Chest.png":
+{
+	"frame": {"x":180,"y":20,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"enemyAttacking.png":
+{
+	"frame": {"x":64,"y":52,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"enemyStanding.png":
+{
+	"frame": {"x":32,"y":52,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"hpBar0.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":10},
+	"sourceSize": {"w":100,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"hpBar1.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":10},
+	"sourceSize": {"w":100,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"hpBar2.png":
+{
+	"frame": {"x":0,"y":20,"w":100,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":10},
+	"sourceSize": {"w":100,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"hpBar3.png":
+{
+	"frame": {"x":0,"y":10,"w":100,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":10},
+	"sourceSize": {"w":100,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"hpBar4.png":
+{
+	"frame": {"x":100,"y":10,"w":100,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":10},
+	"sourceSize": {"w":100,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"player2.png":
+{
+	"frame": {"x":116,"y":20,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"potion.png":
+{
+	"frame": {"x":148,"y":20,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"profileBackground.png":
+{
+	"frame": {"x":96,"y":52,"w":150,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":40},
+	"sourceSize": {"w":150,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"spider.png":
+{
+	"frame": {"x":212,"y":20,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mapidyMap/atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":246,"h":92},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5a193850f81fdd62393efe63dff62a50:eeba9996760c09dda3698f6cf24ab895:cbce6b53f0f49e0bf15173c25c41f876$"
+}
+}
